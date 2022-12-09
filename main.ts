@@ -3,9 +3,7 @@ input.onButtonPressed(Button.A, function () {
     display.show(lengte)
 })
 input.onButtonPressed(Button.AB, function () {
-    let afstand_y = 0
-    let afstand_x = 0
-    oppervlakte = afstand_x * afstand_y
+    oppervlakte = lengte * breedte
     display.show(oppervlakte)
 })
 input.onButtonPressed(Button.B, function () {
